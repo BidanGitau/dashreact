@@ -1,0 +1,50 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.topright{
+    display: flex;
+    align-items: center;
+}
+.topbarwrapper{
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+    color: blue;
+    font-size: 30px;
+    cursor: pointer;
+}
+.topbarIcons{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.topiconbag{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    background-color: rgb(233, 13, 13);
+    color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+.topAvatar{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+       
+}
