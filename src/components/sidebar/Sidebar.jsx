@@ -1,5 +1,20 @@
 import React from "react";
-import { LineStyle, Timeline, TrendingUp, Report,WorkOffOutlined,VerifiedUser} from "@material-ui/icons";
+import {
+  LineStyle,
+  Timeline,
+  TrendingUp,
+  PermIdentity,
+  Storefront,
+  AttachMoney,
+  BarChart,
+  MailOutline,
+  DynamicFeed,
+  ChatBubbleOutline,
+  WorkOutline,
+  Report,
+} from "@material-ui/icons";
+
+import { Link } from "react-router-dom";
 //css
 import "./sidebar.css";
 const Sidebar = () => {
@@ -25,47 +40,51 @@ const Sidebar = () => {
         </div>
         <div className="sidebarmenu">
           <div className="sidebartitle">QuickMenu</div>
-          <u l className="sidebarlist">
+          <ul className="sidebarList">
+            <Link to="/users" className="link">
+              <li className="sidebarlistitem">
+                <PermIdentity className="sidebaricon" />
+                Users
+              </li>
+            </Link>
+            <Link to="/products" className="link">
+              <li className="sidebarlistitem">
+                <Storefront className="sidebarIcon" />
+                Products
+              </li>
+            </Link>
             <li className="sidebarlistitem">
-              <VerifiedUser className="sidebarIcon" />
-              User
+              <AttachMoney className="sidebarIcon" />
+              Transactions
             </li>
             <li className="sidebarlistitem">
-              <Timeline className="sidebarIcon" />
-              Products
-            </li>
-            <li className="sidebarlistitem">
-              <TrendingUp className="sidebarIcon" />
-              Transaction
-            </li>
-            <li className="sidebarlistitem">
-              <WorkOffOutlined className="sidebarIcon" />
+              <BarChart className="sidebarIcon" />
               Reports
             </li>
-          </u>
+          </ul>
         </div>
         <div className="sidebarmenu">
           <div className="sidebartitle">Notification</div>
-          <u l className="sidebarlist">
+          <ul className="sidebarList">
             <li className="sidebarlistitem">
-              <LineStyle className="sidebarIcon" />
+              <MailOutline className="sidebarIcon" />
               Mail
             </li>
             <li className="sidebarlistitem">
-              <Timeline className="sidebarIcon" />
+              <DynamicFeed className="sidebarIcon" />
               Feedback
             </li>
             <li className="sidebarlistitem">
-              <TrendingUp className="sidebarIcon" />
-              Message
+              <ChatBubbleOutline className="sidebarIcon" />
+              Messages
             </li>
-          </u>
+          </ul>
         </div>
         <div className="sidebarmenu">
           <div className="sidebartitle">Staff</div>
-          <u l className="sidebarlist">
+          <ul className="sidebarList">
             <li className="sidebarlistitem">
-              <LineStyle className="sidebarIcon" />
+              <WorkOutline className="sidebarIcon" />
               Manage
             </li>
             <li className="sidebarlistitem">
@@ -73,10 +92,10 @@ const Sidebar = () => {
               Analytics
             </li>
             <li className="sidebarlistitem">
-              <TrendingUp className="sidebarIcon" />
+              <Report className="sidebarIcon" />
               Reports
             </li>
-          </u>
+          </ul>
         </div>
       </div>
     </div>

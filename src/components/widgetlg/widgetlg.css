@@ -3,3 +3,55 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 20px;
 }
+.widgetlgtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.widgetlgimg{
+   width: 40px;
+   height: 40px;
+   object-fit: cover;
+}
+.widgetlgbutton{
+  padding: 5px 5px;
+  border: none;
+  border-radius: 10px;  
+}
+.widgetlgbutton.Approved{
+    background-color: #5a3d3d;
+    color: bisque;
+}
+.widgetlgbutton.Pending{
+    background-color: #463737;
+    color: rgb(201, 101, 54);
+}
+.widgetlgbutton.Declined{
+    background-color: #0a0707;
+    color: aqua;
+}
+.widgetlgtable{
+  width: 100%;
+  border-spacing: 20px;  
+
+}
+.widgetlgth{
+    text-align: left;
+}
+.widgetlguser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+   
+
+}
+.widgetlgdate{
+font-weight: 300;
+}
+.widgetlgamount{
+    font-weight: 300;
+}
+
+.widgetlgstatus{
+
+}
+
