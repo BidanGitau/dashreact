@@ -19,12 +19,14 @@
 .sidebarlist{
     list-style: none;
    padding: 5px; 
+   text-decoration: none;
 }
 .sidebarlistitem{
     padding: 5px;
     cursor: pointer;
     display: flex;
     border-radius: 10px;
+   
 }
 .sidebarlistitem:active, .sidebarlistitem:hover{
     background-color: rgb(196, 196, 197);

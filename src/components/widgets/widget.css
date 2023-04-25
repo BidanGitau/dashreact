@@ -1,0 +1,50 @@
+.widgetsm{
+    flex: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.widgetsmtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+.widgetsmimg{
+font: 40px;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+}
+.widgetsmlist{
+    margin: 0;;
+    padding: 0;
+    list-style:none;
+}
+.widgetsmitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.widgetsmuser{
+    display: flex;
+    flex-direction: column;
+}.widgetsmusername{
+    font-weight: 600;
+}
+.widgetsmusertitle{
+    font-weight: 300;
+}
+.widgetsmbutton{
+   display: flex;
+   align-items: center;
+   border: none;
+   border-radius: 10px;
+   padding: 7px 10px;
+   background-color: aliceblue;
+   cursor: pointer; 
+}
+.widgetsmicon{
+    margin-right: 5px;
+font-size: 1rem !important;
+}
